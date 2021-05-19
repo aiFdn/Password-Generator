@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,12 +26,13 @@
 <body>
     <div class="container generator py-4" id="app">
         <h1>Password Generator</h1>
-        <p>Need a password? Try the Strong Password Generator. Generate secure, random passwords to stay safe online.
+        <p class="mb-3">Need a password? Try the Strong Password Generator. Generate secure, random passwords to stay
+            safe online.
         </p>
-        <div class="well generated-password">
+        <div class="well generated-password" style="border: 1px solid #e1e1e1; padding: 10px 15px; border-radius: 6px;">
             <div class="password-wrapper" v-html="coloredPassword"></div>
         </div>
-        <div class="row password-buttons">
+        <div class="row password-buttons mt-3">
             <div class="col-md-6">
                 <button type="button" class="btn btn-primary btn-block" v-on:click="generate"><i
                         class="fa fa-refresh"></i> Regenerate</button>
