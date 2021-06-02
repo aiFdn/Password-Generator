@@ -2,6 +2,8 @@
 
 Strong Password Generator. Generate secure, random passwords to stay safe online.
 
+![Screenshot](banner.jpg)
+
 ## This applications live version is available in various hosting environments
 
 GitHub: https://pg.env.com.bd
