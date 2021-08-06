@@ -64,6 +64,7 @@
 					<div class="form-group" v-if="type === 'password'">
 						<label for="length">Characters: <span v-text="length"></span></label>
 						<input id="length" name="length" type="range" min="8" max="128" step="1" v-model="length" />
+						<input id="length" name="length" type="text" min="8" max="128" step="1" v-model="length" class="form-control" />
 					</div>
 					<div class="form-group" v-if="type === 'passphrase'">
 						<label for="length">Words: <span v-text="numWords"></span></label>
